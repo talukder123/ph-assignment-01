@@ -3,7 +3,12 @@ body {
     margin: 0;
 }
 
-ul {
+hr {
+    width: 80%;
+    opacity: 0.3;
+}
+
+.top-link ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -142,7 +147,9 @@ ul {
     border-radius: 10px;
 }
 
-.mts-shape p, .mts-shape h3, .mts-shape p {
+.mts-shape p,
+.mts-shape h3,
+.mts-shape p {
     padding-left: 24px;
 }
 
@@ -160,3 +167,159 @@ ul {
     color: #575757;
 }
 
+.secure-spot-container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.sys-title {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.sys-title h2 {
+    font-size: 48px;
+    margin-bottom: 0;
+}
+
+.sys-title p {
+    color: #575757;
+}
+
+.entry-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.entry-card {
+    flex: 1;
+    border: 1px solid #b9b9b952;
+    border-radius: 10px;
+}
+
+.middle-entry-card {
+    background-color: #0D1B2A;
+    flex: 1;
+    border: 1px solid #0D1B2A;
+    border-radius: 10px;
+}
+
+.card-titles {
+    padding: 25px;
+}
+
+.middle-card-titles {
+    padding: 25px;
+}
+
+#standard-title {
+    color: #575757;
+    margin: 0;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#middle-standard-title {
+    color: #60A5FA;
+    margin: 0;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.card-titles h1 {
+    font-size: 50px;
+    margin: 10px auto;
+}
+
+.middle-card-titles h1 {
+    color: white;
+    font-size: 50px;
+    margin: 10px auto;
+}
+
+
+
+#card-type {
+    color: #818182;
+}
+
+.plan-features li {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333333;
+}
+
+.middle-plan-features li {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #b2b1b1;
+}
+
+.plan-features li::marker {
+    color: #2563EB;
+    font-size: 1.2em;
+}
+
+.middle-plan-features li::marker {
+    color: #2563EB;
+    font-size: 1.2em;
+}
+
+.bullet-points {
+    padding: 25px 25px 0px 25px;
+}
+
+.plan-button-box {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.plan-button {
+    display: block;
+    width: 75%;
+    margin: 0 auto 18px;
+    padding: 12px 0;
+    background-color: white;
+    color: #1D4ED8;
+    border: 2px solid #1D4ED8;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.plan-button:hover {
+    background-color: #1E40AF;
+    color: white;
+}
+
+.middle-plan-button-box {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.middle-plan-button {
+    display: block;
+    width: 75%;
+    margin: 0 auto 18px;
+    padding: 12px 0;
+    background-color: #1D4ED8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.middle-plan-button:hover {
+    background-color: white;
+    color: #1E40AF;
+}
