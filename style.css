@@ -388,3 +388,73 @@ hr {
     color: #64748B;
     line-height: 1.7;
 }
+
+footer {
+    background-color: #0D1B2A;
+}
+
+.footer-box {
+    max-width: 1320px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.footer-logo img {
+    display: block;
+}
+
+.footer-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-icon a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+#footer-hr {
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    height: 1px;
+    background-color: white;
+}
+
+
+.footer-text {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #c6c4c4a2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-bottom-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom-link a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer-bottom-link ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
