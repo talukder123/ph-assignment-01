@@ -126,7 +126,6 @@ ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    border: 1px solid black;
     padding: 15px;
 }
 
@@ -135,9 +134,29 @@ ul {
     height: auto;
     display: block;
     border-radius: 10px 10px 0 0;
+    padding-bottom: 10px;
 }
 
 .mts-card-container div {
-    border: 0.5px solid black;
+    border: 0.5px solid #E5E7EB;
     border-radius: 10px;
 }
+
+.mts-shape p, .mts-shape h3, .mts-shape p {
+    padding-left: 24px;
+}
+
+#designation {
+    font-size: 14px;
+    color: #2563EB;
+    font-weight: bold;
+}
+
+.mts-shape {
+    padding-bottom: 20px;
+}
+
+.mts-shape p {
+    color: #575757;
+}
+
