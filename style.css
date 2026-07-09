@@ -1,0 +1,110 @@
+body {
+    font-family: "Google Sans", sans-serif;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: black;
+    gap: 20px;
+}
+
+.nav-link {
+    color: #575757;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #1D4ED8;
+    text-decoration: none;
+}
+
+.nav-parents {
+    padding: 8px 0;
+}
+
+.nav-box {
+    max-width: 1320px;
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    height: 40px;
+    width: 162px;
+    background-color: #1D4ED8;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #1E40AF;
+}
+
+.hero-box {
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
+        linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("./assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-box section div h1 {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 70px;
+    color: white;
+
+    text-align: center;
+}
+
+.hero-box section div p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    max-width: 750px;
+    line-height: 1.5;
+}
+
+.hero-title {
+    text-align: center;
+    margin-bottom: 60px;
+    transform: translateY(-100px);
+}
+
+.hero-button-box {
+    transform: translateY(150px);
+
+}
+
+.hero-btn {
+    height: 57px;
+    width: 200px;
+    background-color: #1D4ED8;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    background-color: #1E40AF;
+}
