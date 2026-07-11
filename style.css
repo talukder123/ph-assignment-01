@@ -470,4 +470,13 @@ footer {
     padding: 0;
     list-style: none;
 }
+
+.footer-bottom-link ul a {
+    color: #c6c4c4a2;
+}
+
+.footer-bottom-link ul a:hover {
+    color: #ffffffa2;
+    transition: 0.2s;
+}
 /*Footer end*/
