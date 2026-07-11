@@ -1,3 +1,4 @@
+/*universal section*/
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -8,6 +9,7 @@ hr {
     opacity: 0.3;
 }
 
+/*for nav ar links*/
 .top-link ul {
     display: flex;
     justify-content: space-between;
@@ -17,6 +19,7 @@ hr {
     gap: 20px;
 }
 
+/*Nav bar*/
 .nav-link {
     color: #575757;
     text-decoration: none;
@@ -40,6 +43,7 @@ hr {
     align-items: center;
 }
 
+/*Button*/
 .btn {
     height: 40px;
     width: 162px;
@@ -56,6 +60,7 @@ hr {
     background-color: #1E40AF;
 }
 
+/*Hero section starts here*/
 .hero-box {
     height: 100vh;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
@@ -116,6 +121,8 @@ hr {
     background-color: #1E40AF;
 }
 
+
+/*Meet the speakers section*/
 .mts {
     max-width: 90%;
     margin: 0 auto;
@@ -147,6 +154,7 @@ hr {
     border-radius: 10px;
 }
 
+/*for applying padding*/
 .mts-shape p,
 .mts-shape h3,
 .mts-shape p {
@@ -166,6 +174,8 @@ hr {
 .mts-shape p {
     color: #575757;
 }
+
+/*card section*/
 
 .secure-spot-container {
     max-width: 80%;
@@ -325,7 +335,7 @@ hr {
 }
 
 
-
+/*Ai-generated section*/
 .why-attend {
     padding: 90px 20px;
     background: linear-gradient(180deg, #F8FBFF 0%, #EEF5FF 100%);
@@ -388,7 +398,9 @@ hr {
     color: #64748B;
     line-height: 1.7;
 }
+/*AI generated part ends here*/
 
+/*Footer*/
 footer {
     background-color: #0D1B2A;
 }
@@ -458,3 +470,4 @@ footer {
     padding: 0;
     list-style: none;
 }
+/*Footer end*/
